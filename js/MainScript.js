@@ -5,8 +5,8 @@ const SINGLE = [{name: "Alert", subpages: [{name: "single-alert-page", duration:
 const MULTIPLE = [{name: "Alerts", subpages: [{name: "multiple-alerts-page", duration: 7000}]},{name: "Now", subpages: [{name: "current-page", duration: 8000}, {name: "radar-page", duration: 8000}, {name: "zoomed-radar-page", duration: 8000}]},{name: "Tonight", subpages: [{name: "tonight-page", duration: 8000}]},{name: "Beyond", subpages: [{name: "tomorrow-page", duration: 8000}, {name: "7day-page", duration: 13000}]},]
 const WEEKDAY = ["SUN",  "MON", "TUES", "WED", "THU", "FRI", "SAT"];
 
-const jingle = new Audio("assets/music/jingle.wav")
-const crawlSpeed = 100;
+const jingle = new Audio("http://66.188.102.132:8000/HD1")
+const crawlSpeed = 50;
 
 var isDay = true;
 var currentLogo;
@@ -47,7 +47,7 @@ function toggleAdvancedSettings(){
 
 function preLoadMusic(){
   var index = Math.floor(Math.random() * 12) + 1;
-  music = new Audio("https://livestream2.ikhnetworks.com/listen/HD1");
+  music = new Audio("" );
 }
 
 /* Set the timeline page order depending on time of day and if
@@ -96,7 +96,7 @@ function setMainBackground(){
 
 function checkStormMusic(){
   if(currentCondition.toLowerCase().includes("storm")){
-    music= new Audio("assets/music/storm.wav");
+    music= new Audio("");
   }
 }
 

@@ -1,11 +1,11 @@
 window.CONFIG = {
-  crawl: `Due to the discontinuation of Weather Underground's API, severe weather alerts, automatic geolookup, and doppler radar imagery are broken for now.`,
+  crawl: `Audio Powered by Homan 2K - 100.7 FM`,
   greeting: 'This is your weather',
   language: 'en-US', // Supported in TWC API
   countryCode: 'US', // Supported in TWC API (for postal key)
   units: 'e', // Supported in TWC API (e = English (imperial), m = Metric, h = Hybrid (UK)),
   unitField: 'imperial', // Supported in TWC API. This field will be filled in automatically. (imperial = e, metric = m, uk_hybrid = h)
-  loop: false,
+  loop: true,
   secrets: {
     twcAPIKey: 'd522aa97197fd864d36b418f39ebb323'
   },
