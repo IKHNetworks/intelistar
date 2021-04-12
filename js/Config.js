@@ -1,5 +1,5 @@
 window.CONFIG = {
-  crawl: `Audio Powered by Homan 2K - 100.7 FM | TV 6 Is Going To Be Running Nightlight Service - This Means You Will Still Be Able To Hear TV6 On 87.7 FM`,
+  crawl: `Audio Powered by Homan 2K - 100.7 FM Fond Du Lac / 106.9 FM WRXS-FM Wauwatosa | TV 6 is now on TV 43 as W43BR.`,
   greeting: 'This is your weather',
   language: 'en-US', // Supported in TWC API
   countryCode: 'US', // Supported in TWC API (for postal key)
